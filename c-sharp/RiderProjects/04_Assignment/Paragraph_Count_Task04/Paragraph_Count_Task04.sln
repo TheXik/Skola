@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paragraph_Count_Task04", "Paragraph_Count_Task04.csproj", "{30977178-2C5A-4EDC-9AE2-86694EF1649E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30977178-2C5A-4EDC-9AE2-86694EF1649E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30977178-2C5A-4EDC-9AE2-86694EF1649E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30977178-2C5A-4EDC-9AE2-86694EF1649E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30977178-2C5A-4EDC-9AE2-86694EF1649E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

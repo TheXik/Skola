@@ -1,0 +1,15 @@
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/bin/Debug/net7.0/Hamlet.txt
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/bin/Debug/net7.0/LineCounter
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/bin/Debug/net7.0/LineCounter.deps.json
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/bin/Debug/net7.0/LineCounter.runtimeconfig.json
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/bin/Debug/net7.0/LineCounter.dll
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/bin/Debug/net7.0/LineCounter.pdb
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/obj/Debug/net7.0/LineCounter.GeneratedMSBuildEditorConfig.editorconfig
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/obj/Debug/net7.0/LineCounter.AssemblyInfoInputs.cache
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/obj/Debug/net7.0/LineCounter.AssemblyInfo.cs
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/obj/Debug/net7.0/LineCounter.csproj.CoreCompileInputs.cache
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/obj/Debug/net7.0/LineCounter.dll
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/obj/Debug/net7.0/refint/LineCounter.dll
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/obj/Debug/net7.0/LineCounter.pdb
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/obj/Debug/net7.0/LineCounter.genruntimeconfig.cache
+/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/obj/Debug/net7.0/ref/LineCounter.dll

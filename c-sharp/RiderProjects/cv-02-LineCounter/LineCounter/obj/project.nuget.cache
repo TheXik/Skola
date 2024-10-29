@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "W5IQo95RPqg=",
+  "success": true,
+  "projectFilePath": "/home/thexik/RiderProjects/cv-02-LineCounter/LineCounter/LineCounter.csproj",
+  "expectedPackageFiles": [
+    "/home/thexik/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/thexik/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/thexik/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

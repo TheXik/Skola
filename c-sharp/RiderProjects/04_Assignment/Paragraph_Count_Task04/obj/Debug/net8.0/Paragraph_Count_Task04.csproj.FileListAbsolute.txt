@@ -1,0 +1,15 @@
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/bin/Debug/net8.0/Paragraph_Count_Task04
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/bin/Debug/net8.0/Paragraph_Count_Task04.deps.json
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/bin/Debug/net8.0/Paragraph_Count_Task04.runtimeconfig.json
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/bin/Debug/net8.0/Paragraph_Count_Task04.dll
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/bin/Debug/net8.0/Paragraph_Count_Task04.pdb
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/Paragraph_Count_Task04.GeneratedMSBuildEditorConfig.editorconfig
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/Paragraph_Count_Task04.AssemblyInfoInputs.cache
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/Paragraph_Count_Task04.AssemblyInfo.cs
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/Paragraph_Count_Task04.csproj.CoreCompileInputs.cache
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/Paragraph_Count_Task04.dll
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/refint/Paragraph_Count_Task04.dll
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/Paragraph_Count_Task04.pdb
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/Paragraph_Count_Task04.genruntimeconfig.cache
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/ref/Paragraph_Count_Task04.dll
+/home/thexik/RiderProjects/04_Assignment/Paragraph_Count_Task04/obj/Debug/net8.0/Paragraph_Count_Task04.csproj.AssemblyReference.cache

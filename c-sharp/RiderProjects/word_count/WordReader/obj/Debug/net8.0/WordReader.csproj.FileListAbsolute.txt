@@ -1,0 +1,15 @@
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/WordReader.csproj.AssemblyReference.cache
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/WordReader.GeneratedMSBuildEditorConfig.editorconfig
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/WordReader.AssemblyInfoInputs.cache
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/WordReader.AssemblyInfo.cs
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/WordReader.csproj.CoreCompileInputs.cache
+/home/thexik/RiderProjects/word_count/WordReader/bin/Debug/net8.0/WordReader.deps.json
+/home/thexik/RiderProjects/word_count/WordReader/bin/Debug/net8.0/WordReader.dll
+/home/thexik/RiderProjects/word_count/WordReader/bin/Debug/net8.0/WordReader.pdb
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/WordReader.csproj.Up2Date
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/WordReader.dll
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/refint/WordReader.dll
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/WordReader.pdb
+/home/thexik/RiderProjects/word_count/WordReader/obj/Debug/net8.0/ref/WordReader.dll
+/home/thexik/RiderProjects/word_count/WordReader/bin/Debug/net8.0/InputOutputParser.dll
+/home/thexik/RiderProjects/word_count/WordReader/bin/Debug/net8.0/InputOutputParser.pdb

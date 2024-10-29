@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sum_or_not", "sum_or_not\sum_or_not.csproj", "{952ED6FE-6981-437A-BDAF-0E325FE02AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sum_or_not_sum_UnitTests", "sum_or_not_sum_UnitTests\sum_or_not_sum_UnitTests.csproj", "{3B3DA48B-BBDC-4BDA-9AF6-D724EC4596B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{952ED6FE-6981-437A-BDAF-0E325FE02AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952ED6FE-6981-437A-BDAF-0E325FE02AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952ED6FE-6981-437A-BDAF-0E325FE02AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952ED6FE-6981-437A-BDAF-0E325FE02AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B3DA48B-BBDC-4BDA-9AF6-D724EC4596B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3DA48B-BBDC-4BDA-9AF6-D724EC4596B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3DA48B-BBDC-4BDA-9AF6-D724EC4596B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3DA48B-BBDC-4BDA-9AF6-D724EC4596B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

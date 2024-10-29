@@ -1,0 +1,14 @@
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/bin/Debug/net8.0/ParagraphCount_Token
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/bin/Debug/net8.0/ParagraphCount_Token.deps.json
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/bin/Debug/net8.0/ParagraphCount_Token.runtimeconfig.json
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/bin/Debug/net8.0/ParagraphCount_Token.dll
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/bin/Debug/net8.0/ParagraphCount_Token.pdb
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/obj/Debug/net8.0/ParagraphCount_Token.GeneratedMSBuildEditorConfig.editorconfig
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/obj/Debug/net8.0/ParagraphCount_Token.AssemblyInfoInputs.cache
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/obj/Debug/net8.0/ParagraphCount_Token.AssemblyInfo.cs
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/obj/Debug/net8.0/ParagraphCount_Token.csproj.CoreCompileInputs.cache
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/obj/Debug/net8.0/ParagraphCount_Token.dll
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/obj/Debug/net8.0/refint/ParagraphCount_Token.dll
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/obj/Debug/net8.0/ParagraphCount_Token.pdb
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/obj/Debug/net8.0/ParagraphCount_Token.genruntimeconfig.cache
+/home/thexik/RiderProjects/ParagraphCount_Token/ParagraphCount_Token/obj/Debug/net8.0/ref/ParagraphCount_Token.dll

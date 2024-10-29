@@ -1,0 +1,11 @@
+/home/thexik/RiderProjects/word_count/LineCounter/bin/Debug/net8.0/LineCounter.deps.json
+/home/thexik/RiderProjects/word_count/LineCounter/bin/Debug/net8.0/LineCounter.dll
+/home/thexik/RiderProjects/word_count/LineCounter/bin/Debug/net8.0/LineCounter.pdb
+/home/thexik/RiderProjects/word_count/LineCounter/obj/Debug/net8.0/LineCounter.GeneratedMSBuildEditorConfig.editorconfig
+/home/thexik/RiderProjects/word_count/LineCounter/obj/Debug/net8.0/LineCounter.AssemblyInfoInputs.cache
+/home/thexik/RiderProjects/word_count/LineCounter/obj/Debug/net8.0/LineCounter.AssemblyInfo.cs
+/home/thexik/RiderProjects/word_count/LineCounter/obj/Debug/net8.0/LineCounter.csproj.CoreCompileInputs.cache
+/home/thexik/RiderProjects/word_count/LineCounter/obj/Debug/net8.0/LineCounter.dll
+/home/thexik/RiderProjects/word_count/LineCounter/obj/Debug/net8.0/refint/LineCounter.dll
+/home/thexik/RiderProjects/word_count/LineCounter/obj/Debug/net8.0/LineCounter.pdb
+/home/thexik/RiderProjects/word_count/LineCounter/obj/Debug/net8.0/ref/LineCounter.dll
