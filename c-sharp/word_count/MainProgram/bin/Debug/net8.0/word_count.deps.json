@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "word_count/1.0.0": {
+        "dependencies": {
+          "LineCounter": "1.0.0",
+          "WordProcessor": "1.0.0",
+          "WordReader": "1.0.0"
+        },
+        "runtime": {
+          "word_count.dll": {}
+        }
+      },
+      "LineCounter/1.0.0": {
+        "runtime": {
+          "LineCounter.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WordProcessor/1.0.0": {
+        "dependencies": {
+          "LineCounter": "1.0.0"
+        },
+        "runtime": {
+          "WordProcessor.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WordReader/1.0.0": {
+        "dependencies": {
+          "LineCounter": "1.0.0"
+        },
+        "runtime": {
+          "WordReader.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "word_count/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LineCounter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WordProcessor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WordReader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

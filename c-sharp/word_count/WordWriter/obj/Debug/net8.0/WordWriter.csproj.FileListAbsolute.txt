@@ -1,0 +1,11 @@
+/home/thexik/RiderProjects/word_count/WordWriter/bin/Debug/net8.0/WordWriter.deps.json
+/home/thexik/RiderProjects/word_count/WordWriter/bin/Debug/net8.0/WordWriter.dll
+/home/thexik/RiderProjects/word_count/WordWriter/bin/Debug/net8.0/WordWriter.pdb
+/home/thexik/RiderProjects/word_count/WordWriter/obj/Debug/net8.0/WordWriter.GeneratedMSBuildEditorConfig.editorconfig
+/home/thexik/RiderProjects/word_count/WordWriter/obj/Debug/net8.0/WordWriter.AssemblyInfoInputs.cache
+/home/thexik/RiderProjects/word_count/WordWriter/obj/Debug/net8.0/WordWriter.AssemblyInfo.cs
+/home/thexik/RiderProjects/word_count/WordWriter/obj/Debug/net8.0/WordWriter.csproj.CoreCompileInputs.cache
+/home/thexik/RiderProjects/word_count/WordWriter/obj/Debug/net8.0/WordWriter.dll
+/home/thexik/RiderProjects/word_count/WordWriter/obj/Debug/net8.0/refint/WordWriter.dll
+/home/thexik/RiderProjects/word_count/WordWriter/obj/Debug/net8.0/WordWriter.pdb
+/home/thexik/RiderProjects/word_count/WordWriter/obj/Debug/net8.0/ref/WordWriter.dll

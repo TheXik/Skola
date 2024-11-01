@@ -1,0 +1,15 @@
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/WordProcessor.csproj.AssemblyReference.cache
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/WordProcessor.GeneratedMSBuildEditorConfig.editorconfig
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/WordProcessor.AssemblyInfoInputs.cache
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/WordProcessor.AssemblyInfo.cs
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/WordProcessor.csproj.CoreCompileInputs.cache
+/home/thexik/RiderProjects/word_count/WordProcessor/bin/Debug/net8.0/WordProcessor.deps.json
+/home/thexik/RiderProjects/word_count/WordProcessor/bin/Debug/net8.0/WordProcessor.dll
+/home/thexik/RiderProjects/word_count/WordProcessor/bin/Debug/net8.0/WordProcessor.pdb
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/WordProc.5A8A0F98.Up2Date
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/WordProcessor.dll
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/refint/WordProcessor.dll
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/WordProcessor.pdb
+/home/thexik/RiderProjects/word_count/WordProcessor/obj/Debug/net8.0/ref/WordProcessor.dll
+/home/thexik/RiderProjects/word_count/WordProcessor/bin/Debug/net8.0/InputOutputParser.dll
+/home/thexik/RiderProjects/word_count/WordProcessor/bin/Debug/net8.0/InputOutputParser.pdb

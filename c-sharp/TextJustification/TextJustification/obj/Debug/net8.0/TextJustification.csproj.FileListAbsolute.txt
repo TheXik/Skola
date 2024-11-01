@@ -1,0 +1,14 @@
+/home/thexik/RiderProjects/TextJustification/TextJustification/bin/Debug/net8.0/TextJustification
+/home/thexik/RiderProjects/TextJustification/TextJustification/bin/Debug/net8.0/TextJustification.deps.json
+/home/thexik/RiderProjects/TextJustification/TextJustification/bin/Debug/net8.0/TextJustification.runtimeconfig.json
+/home/thexik/RiderProjects/TextJustification/TextJustification/bin/Debug/net8.0/TextJustification.dll
+/home/thexik/RiderProjects/TextJustification/TextJustification/bin/Debug/net8.0/TextJustification.pdb
+/home/thexik/RiderProjects/TextJustification/TextJustification/obj/Debug/net8.0/TextJustification.GeneratedMSBuildEditorConfig.editorconfig
+/home/thexik/RiderProjects/TextJustification/TextJustification/obj/Debug/net8.0/TextJustification.AssemblyInfoInputs.cache
+/home/thexik/RiderProjects/TextJustification/TextJustification/obj/Debug/net8.0/TextJustification.AssemblyInfo.cs
+/home/thexik/RiderProjects/TextJustification/TextJustification/obj/Debug/net8.0/TextJustification.csproj.CoreCompileInputs.cache
+/home/thexik/RiderProjects/TextJustification/TextJustification/obj/Debug/net8.0/TextJustification.dll
+/home/thexik/RiderProjects/TextJustification/TextJustification/obj/Debug/net8.0/refint/TextJustification.dll
+/home/thexik/RiderProjects/TextJustification/TextJustification/obj/Debug/net8.0/TextJustification.pdb
+/home/thexik/RiderProjects/TextJustification/TextJustification/obj/Debug/net8.0/TextJustification.genruntimeconfig.cache
+/home/thexik/RiderProjects/TextJustification/TextJustification/obj/Debug/net8.0/ref/TextJustification.dll

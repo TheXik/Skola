@@ -1,0 +1,11 @@
+/home/thexik/RiderProjects/word_count/InputOutputParser/bin/Debug/net8.0/InputOutputParser.deps.json
+/home/thexik/RiderProjects/word_count/InputOutputParser/bin/Debug/net8.0/InputOutputParser.dll
+/home/thexik/RiderProjects/word_count/InputOutputParser/bin/Debug/net8.0/InputOutputParser.pdb
+/home/thexik/RiderProjects/word_count/InputOutputParser/obj/Debug/net8.0/InputOutputParser.GeneratedMSBuildEditorConfig.editorconfig
+/home/thexik/RiderProjects/word_count/InputOutputParser/obj/Debug/net8.0/InputOutputParser.AssemblyInfoInputs.cache
+/home/thexik/RiderProjects/word_count/InputOutputParser/obj/Debug/net8.0/InputOutputParser.AssemblyInfo.cs
+/home/thexik/RiderProjects/word_count/InputOutputParser/obj/Debug/net8.0/InputOutputParser.csproj.CoreCompileInputs.cache
+/home/thexik/RiderProjects/word_count/InputOutputParser/obj/Debug/net8.0/InputOutputParser.dll
+/home/thexik/RiderProjects/word_count/InputOutputParser/obj/Debug/net8.0/refint/InputOutputParser.dll
+/home/thexik/RiderProjects/word_count/InputOutputParser/obj/Debug/net8.0/InputOutputParser.pdb
+/home/thexik/RiderProjects/word_count/InputOutputParser/obj/Debug/net8.0/ref/InputOutputParser.dll

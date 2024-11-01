@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParagraphCount_Token", "ParagraphCount_Token\ParagraphCount_Token.csproj", "{3BA96619-E25F-4049-BABB-5ACFE28CFD67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsParagraph", "UnitTestsParagraph\UnitTestsParagraph.csproj", "{69EDF153-68D1-4EA9-8690-9CE8277F0E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BA96619-E25F-4049-BABB-5ACFE28CFD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA96619-E25F-4049-BABB-5ACFE28CFD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA96619-E25F-4049-BABB-5ACFE28CFD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA96619-E25F-4049-BABB-5ACFE28CFD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69EDF153-68D1-4EA9-8690-9CE8277F0E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69EDF153-68D1-4EA9-8690-9CE8277F0E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69EDF153-68D1-4EA9-8690-9CE8277F0E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69EDF153-68D1-4EA9-8690-9CE8277F0E23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

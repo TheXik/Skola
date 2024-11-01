@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LineCounter": {
+      "commandName": "Project",
+      "commandLineArgs": "Hamlet.txt Output.txt"
+    }
+  }
+}
