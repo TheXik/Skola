@@ -49,6 +49,7 @@ namespace InputOutputParser {
 
             try {
                 Writer = new StreamWriter(args[1]);
+                Writer.NewLine = "\n";
             } catch (IOException) {
                 Console.WriteLine(FileErrorMessage);
                 return false;

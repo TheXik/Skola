@@ -63,7 +63,7 @@ namespace TextJustification
                     break;
                 }
             }
-            processor.Finish();
+            
         }
     }
 }

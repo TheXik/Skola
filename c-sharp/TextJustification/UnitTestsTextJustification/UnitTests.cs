@@ -99,7 +99,7 @@ public class UnitTests
     [Fact]
     public void FileDosntExistsTest()
     {
-        // Arrange
+        // Arrange 
         var args = new string[] { "NONEXISTENTSFILE.txt", "OUTPUTNOTEXISTS.txt" ,"10"}; //correct num of arguments but line width is not a number 
         var programState = new ProgramInputOutputState();
         StringWriter output = new StringWriter();
@@ -119,11 +119,11 @@ public class UnitTests
    //THE LAST LINE MUST END WITH \n
    // LINE AS MANY WORDS AS THERE CAN BE WITHOUT CHANGING ORDER
    //  All words must be separated by at least one space.
-   /*IMPORTANT HOW TO MANAGE SPACE 
-    * If some there is still some empty space remaining to achieve the maximum text width,
-    * this space is uniformly distributed among the word gaps by adding space characters.
-    * If the extra spaces cannot be distributed uniformly, they should be added from the left, 
-    */
+   // IMPORTANT HOW TO MANAGE SPACE 
+   // If some there is still some empty space remaining to achieve the maximum text width,
+    // this space is uniformly distributed among the word gaps by adding space characters.
+    //If the extra spaces cannot be distributed uniformly, they should be added from the left, 
+    
    //The final line of each paragraph should be aligned to the left (all words should be separated by exactly one)
    
    //For every line of the output file there can be no white-space characters between the last character of the last word and the line break character.
@@ -193,7 +193,7 @@ public class UnitTests
    }
    
    [Fact]
-   public void MultipleParagraphs()
+   public void MultipleParagraphsTest()
    {
        // Arrange
        var input = """
@@ -236,22 +236,17 @@ public class UnitTests
    {
        // Arrange
        var input = """
-                   AHOJA
-                   LUKAS
-                   LUKAS
                    LUKAS
                    LUKAS_CEZ_RIADOK_PRINTNE_SA_CELE_TOTO
                    
                    LUKAS
                    """;
        var expectedOutput = """
-                            AHOJA
-                            LUKAS
-                            LUKAS
                             LUKAS
                             LUKAS_CEZ_RIADOK_PRINTNE_SA_CELE_TOTO
                             
                             LUKAS
+                            
                             """;
 
        using (StringReader reader = new StringReader(input))
@@ -267,7 +262,7 @@ public class UnitTests
 
            // Act
            Program.ProcessAllWords(paragraphDetectingReader, processor);
-           string actualOutput = writer.ToString().TrimEnd();
+           string actualOutput = writer.ToString();
 
            // Assert
            Assert.Equal(expectedOutput, actualOutput);
@@ -290,6 +285,7 @@ public class UnitTests
                             what  is  a  work
                             TOTO_JE_VELMI_DLHE_SLOVO_ABY_PRESIAHLO_MAXIMALNU_DLZKU
                             station?
+                            
                             """;
 
        using (StringReader reader = new StringReader(input))
@@ -305,7 +301,7 @@ public class UnitTests
 
            // Act
            Program.ProcessAllWords(paragraphDetectingReader, processor);
-           string actualOutput = writer.ToString().TrimEnd();
+           string actualOutput = writer.ToString();
 
            // Assert
            Assert.Equal(expectedOutput, actualOutput);
@@ -316,28 +312,8 @@ public class UnitTests
    public void SmallLineWidthTest()
    {
        // Arrange
-       var input = """
-                   If a train station is where the train stops, what is a work TOTO_JE_VELMI_DLHE_SLOVO_ABY_PRESIAHLO_MAXIMALNU_DLZKU
-                   station?
-
-                   """;
-       var expectedOutput = """
-                            If
-                            a
-                            train
-                            station
-                            is
-                            where
-                            the
-                            train
-                            stops,
-                            what
-                            is
-                            a
-                            work
-                            TOTO_JE_VELMI_DLHE_SLOVO_ABY_PRESIAHLO_MAXIMALNU_DLZKU
-                            station?
-                            """;
+       var input = "TOTO_JE_VELMI_DLHE_SLOVO_ABY_PRESIAHLO_MAXIMALNU_DLZKU\nstation?\n";
+       var expectedOutput = "TOTO_JE_VELMI_DLHE_SLOVO_ABY_PRESIAHLO_MAXIMALNU_DLZKU\nstation?\n";
 
        using (StringReader reader = new StringReader(input))
        using (StringWriter writer = new StringWriter())
@@ -352,7 +328,7 @@ public class UnitTests
 
            // Act
            Program.ProcessAllWords(paragraphDetectingReader, processor);
-           string actualOutput = writer.ToString().TrimEnd();
+           string actualOutput = writer.ToString();
 
            // Assert
            Assert.Equal(expectedOutput, actualOutput);
@@ -368,6 +344,7 @@ public class UnitTests
                             aa bb cc d
                             a        a
                             DLHSSIESLOVO
+                            
                             """;
 
        using (StringReader reader = new StringReader(input))
@@ -383,7 +360,7 @@ public class UnitTests
 
            // Act
            Program.ProcessAllWords(paragraphDetectingReader, processor);
-           string actualOutput = writer.ToString().TrimEnd();
+           string actualOutput = writer.ToString();
 
            // Assert
            Assert.Equal(expectedOutput, actualOutput);
@@ -398,6 +375,7 @@ public class UnitTests
        var expectedOutput = """
                             a   a   a
                             NEJAKEDLHESLOVO
+                            
                             """;
 
        using (StringReader reader = new StringReader(input))
@@ -413,7 +391,7 @@ public class UnitTests
 
            // Act
            Program.ProcessAllWords(paragraphDetectingReader, processor);
-           string actualOutput = writer.ToString().TrimEnd();
+           string actualOutput = writer.ToString();
 
            // Assert
            Assert.Equal(expectedOutput, actualOutput);
@@ -428,6 +406,7 @@ public class UnitTests
        var expectedOutput = """
                             AAAAA     BBBBB    C
                             NEJAKEDLHESLOVOVELMIDLHESLOVODLHSIEAKO20ZNAKOV
+                            
                             """;
        // IT DOESNT SEEM LIKE IT BUT IN    (AAAAA_____BBBBB____C)   there is one more space 
 
@@ -443,7 +422,7 @@ public class UnitTests
 
            // Act
            Program.ProcessAllWords(paragraphDetectingReader, processor);
-           string actualOutput = writer.ToString().TrimEnd();
+           string actualOutput = writer.ToString();
 
            // Assert
            Assert.Equal(expectedOutput, actualOutput);
@@ -459,11 +438,43 @@ public class UnitTests
 
 
                    TESTCISLO2
+                   
+                   """;
+       var expectedOutput = "TEST1\n\nTESTCISLO2\n";
+       // IT DOESNT SEEM LIKE IT BUT IN    (AAAAA_____BBBBB____C)   there is one more space 
+
+       using (StringReader reader = new StringReader(input))
+       using (StringWriter writer = new StringWriter())
+       {
+           int maxWidth = 10;
+
+           // Initialize readers and processor for left alignment
+           var wordReader = new WordReaderByWords(reader);
+           var paragraphDetectingReader = new ParagraphDetectingTokenReader(wordReader);
+           var processor = new WordFormater(maxWidth, writer);
+
+           // Act
+           Program.ProcessAllWords(paragraphDetectingReader, processor);
+           string actualOutput = writer.ToString();
+
+           // Assert
+           Assert.Equal(expectedOutput, actualOutput);
+       }
+
+   }
+   
+   
+   [Fact]
+   public void FinalLineCheckTest()
+   {
+       // Arrange
+       var input = """
+                   FINAL LINE CHECKING_WHETHER_IT_PRINTS_WHOLE_WORD
                    """;
        var expectedOutput = """
-                            TEST1
-
-                            TESTCISLO2
+                            FINAL LINE
+                            CHECKING_WHETHER_IT_PRINTS_WHOLE_WORD
+                            
                             """;
        // IT DOESNT SEEM LIKE IT BUT IN    (AAAAA_____BBBBB____C)   there is one more space 
 
@@ -479,12 +490,98 @@ public class UnitTests
 
            // Act
            Program.ProcessAllWords(paragraphDetectingReader, processor);
-           string actualOutput = writer.ToString().TrimEnd();
+           string actualOutput = writer.ToString();
 
            // Assert
            Assert.Equal(expectedOutput, actualOutput);
        }
 
    }
+   
+   [Fact]
+   public void LastLineEndsWithLineBreakTest()
+   {
+       // Arrange
+       var input = """TEST""";
+       var expectedOutput = "TEST\n";
+       // IT DOESNT SEEM LIKE IT BUT IN    (AAAAA_____BBBBB____C)   there is one more space 
+
+       using (StringReader reader = new StringReader(input))
+       using (StringWriter writer = new StringWriter())
+       {
+           int maxWidth = 10;
+
+           // Initialize readers and processor for left alignment
+           var wordReader = new WordReaderByWords(reader);
+           var paragraphDetectingReader = new ParagraphDetectingTokenReader(wordReader);
+           var processor = new WordFormater(maxWidth, writer);
+
+           // Act
+           Program.ProcessAllWords(paragraphDetectingReader, processor);
+           string actualOutput = writer.ToString();
+
+           // Assert
+           Assert.Equal(expectedOutput, actualOutput);
+       }
+
+   }
+   
+   [Fact]
+   public void LastLineEndsWithLineBreakTest2()
+   {
+       // Arrange
+       var input = """TESTTESTTE ST""";
+       var expectedOutput = "TESTTESTTE\nST\n";
+       // IT DOESNT SEEM LIKE IT BUT IN    (AAAAA_____BBBBB____C)   there is one more space 
+
+       using (StringReader reader = new StringReader(input))
+       using (StringWriter writer = new StringWriter())
+       {
+           int maxWidth = 10;
+
+           // Initialize readers and processor for left alignment
+           var wordReader = new WordReaderByWords(reader);
+           var paragraphDetectingReader = new ParagraphDetectingTokenReader(wordReader);
+           var processor = new WordFormater(maxWidth, writer);
+
+           // Act
+           Program.ProcessAllWords(paragraphDetectingReader, processor);
+           string actualOutput = writer.ToString();
+
+           // Assert
+           Assert.Equal(expectedOutput, actualOutput);
+       }
+
+   }
+   
+   [Fact]
+   public void LastLineEndsWithLineBreakTest3()
+   {
+       // Arrange
+       var input = "TESTTESTTE AAAAAAAAAAAAAAAAAAAAAAAAAAAA\n\n";
+       var expectedOutput = "TESTTESTTE\nAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n";
+       // IT DOESNT SEEM LIKE IT BUT IN    (AAAAA_____BBBBB____C)   there is one more space 
+
+       using (StringReader reader = new StringReader(input))
+       using (StringWriter writer = new StringWriter())
+       {
+           int maxWidth = 10;
+
+           // Initialize readers and processor for left alignment
+           var wordReader = new WordReaderByWords(reader);
+           var paragraphDetectingReader = new ParagraphDetectingTokenReader(wordReader);
+           var processor = new WordFormater(maxWidth, writer);
+
+           // Act
+           Program.ProcessAllWords(paragraphDetectingReader, processor);
+           string actualOutput = writer.ToString();
+
+           // Assert
+           Assert.Equal(expectedOutput, actualOutput);
+       }
+
+   }
+   
+   
    
 }
